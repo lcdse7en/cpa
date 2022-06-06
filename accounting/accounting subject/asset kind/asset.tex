@@ -1,0 +1,119 @@
+\documentclass[a4paper]{ctexart}    %ctexart, article
+\usepackage[margin=1cm]{geometry}
+\usepackage{amsmath, mathrsfs, amsfonts}
+\usepackage{amssymb}
+\usepackage[
+      colorlinks=true,
+            linkcolor=Navy,
+            urlcolor=Navy,
+            citecolor=Navy,
+            anchorcolor=Navy
+]{hyperref}
+\usepackage[utf8]{inputenc}
+\usepackage{pgfplots}
+\usepackage{xcolor}
+%\usepackage{minted}
+\usepackage{tikz}
+\usepackage{tkz-euclide}
+\usepackage{longtable}
+
+
+
+\begin{document}
+\begin{center}
+    \begin{longtable}{|c|c|p{6cm}|c|}
+\caption{资产类会计科目表}\\
+\hline
+\textbf{序号} & \textbf{编号} & \multicolumn{1}{c|}{\textbf{会计科目名称}} & \textbf{会计科目使用范围} \\
+\hline \hline
+\endfirsthead
+% \caption{\textit{(Continued)} Caption for the multi-page table}\\
+\caption{(续表) 资产类会计科目表}\\
+\hline
+\textbf{序号} & \textbf{编号} & \multicolumn{1}{c|}{\textbf{会计科目名称}} & \textbf{会计科目使用范围} \\
+\hline \hline
+\endhead
+\hline
+\multicolumn{4}{|r|}{\textit{Continued on next page}} \\\hline
+\endfoot
+\hline
+\endlastfoot
+1 & 1001 & 库存现金 & \\\hline
+2 & 1002 & 银行存款 & \\\hline
+3 & 1003 & 存放中央银行款项 & 银行专用 \\\hline
+4 & 1011 & 存放同业 & 银行专用 \\\hline
+5 & 1012 & 其他货币资金 & \\\hline
+6 & 1021 & 结算备付金 & 证券专用 \\\hline
+7 & 1031 & 存出保证金 & 金融共用 \\\hline
+8 & 1101 & 交易性金融资产 &  \\\hline
+9 & 1111 & 买人返售金融资产 & 金融共用 \\\hline
+10 & 1121 & 应收票据 & \\\hline
+11 & 1122 & 应收账款 & \\\hline
+12 & 1123 & 预付账款 & \\\hline
+13 & 1131 & 应收股利 & \\\hline
+14 & 1132 & 应收利息 & \\\hline
+15 & 1201 & 应收代位追偿款 & 保险专用 \\\hline
+16 & 1211 & 应收分保账款 & 保险专用 \\\hline
+17 & 1212 & 应收分保合同准备金 & 保险专用 \\\hline
+18 & 1213 & 应收保户储金 & 保险专用 \\\hline
+19 & 1221 & 其他应收款 & \\\hline
+20 & 1231 & 坏账准备 & \\\hline
+21 & 1301 & 贴现资产 & 银行专用 \\\hline
+22 & 1302 & 拆出资金 & 金融共用 \\\hline
+23 & 1303 & 贷款 & 银行和保险共用 \\\hline
+24 & 1304 & 贷款损失准备 & 银行和保险共用 \\\hline
+25 & 1311 & 代理兑付证券 & 银行和保险共用 \\\hline
+26 & 1321 & 代理业务资产 & 证券和银行共用 \\\hline
+27 & 1401 & 材料采购 & \\\hline
+28 & 1402 & 在途物资 & \\\hline
+29 & 1403 & 原材料 & \\\hline
+30 & 1404 & 材料成本差异 & \\\hline
+31 & 1405 & 库存商品 & \\\hline
+32 & 1406 & 发出商品 & \\\hline
+33 & 1407 & 商品进销差价 & \\\hline
+34 & 1408 & 委托加工物资 & \\\hline
+35 & 1411 & 周转材料 & \\\hline
+36 & 1421 & 消耗性生物资产 & 农业专用 \\\hline
+37 & 1431 & 贵金属 & 银行专用 \\\hline
+38 & 1441 & 抵债资产 & 金融共用 \\\hline
+39 & 1451 & 损余物资 & 保险专用 \\\hline
+40 & 1461 & 融资租赁资产 & 租赁专用 \\\hline
+41 & 1471 & 存货跌价准备 & \\\hline
+42 & 1501 & 债权投资 & \\\hline
+43 & 1502 & 债权投资减值准备 & \\\hline
+44 & 1503 & 其他债权投资 & \\\hline
+45 & 1504 & 其他权益工具投资 & \\\hline
+46 & 1511 & 长期股权投资 & \\\hline
+47 & 1512 & 长期股权投资减值准备 & \\\hline
+48 & 1518 & 继续涉入资产 & \\\hline
+49 & 1521 & 投资性房地产 & \\\hline
+50 & 1531 & 长期应收款 & \\\hline
+51 & 1532 & 未实现融资收益 & \\\hline
+52 & 1541 & 存出资本保证金 & 保险专用 \\\hline
+53 & 1601 & 固定资产 & \\\hline
+54 & 1602 & 累计折旧 & \\\hline
+55 & 1603 & 固定资产减值准备 & \\\hline
+56 & 1604 & 在建工程 & \\\hline
+57 & 1605 & 工程物资 & \\\hline
+58 & 1606 & 固定资产清理 & \\\hline
+59 & 1611 & 未担保余值 & 租赁专用 \\\hline
+60 & 1621 & 生产性生物资产 & 农业专用 \\\hline
+61 & 1622 & 生产性生物资产累计折旧 & 农业专用 \\\hline
+62 & 1623 & 公益性生物资产 & 农业专用 \\\hline
+63 & 1631 & 油气资产 & 石油天然气开采专用 \\\hline
+64 & 1632 & 累计折耗 & 石油天然气开采专用 \\\hline
+65 & 1701 & 无形资产 & \\\hline
+66 & 1702 & 累计摊销 & \\\hline
+67 & 1703 & 无形资产减值准备 & \\\hline
+68 & 1711 & 商誉 & \\\hline
+69 & 1801 & 长期待摊费用 & \\\hline
+70 & 1811 & 递延所得税资产 & \\\hline
+71 & 1821 & 独立账户资产 & 保险专用 \\\hline
+72 & 1901 & 待处理财产损溢 & \\\hline
+73 & 1481 & 持有待售资产 & \\\hline
+74 & 1482 & 持有待售资产减值准备 & \\
+\end{longtable}
+\end{center}
+
+
+\end{document}

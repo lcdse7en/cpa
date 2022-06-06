@@ -1,6 +1,6 @@
 #### 1.website of application
 [注册会计师全国统一考试网上报名](https://cpaexam.cicpa.org.cn)
-![application](./apply.png)
+![application](./images/apply.png)
 
 
 
