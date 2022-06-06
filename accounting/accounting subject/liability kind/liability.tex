@@ -1,0 +1,83 @@
+
+\documentclass[a4paper]{ctexart}    %ctexart, article
+\usepackage[margin=1cm]{geometry}
+\usepackage{amsmath, mathrsfs, amsfonts}
+\usepackage{amssymb}
+\usepackage[
+      colorlinks=true,
+            linkcolor=Navy,
+            urlcolor=Navy,
+            citecolor=Navy,
+            anchorcolor=Navy
+]{hyperref}
+\usepackage[utf8]{inputenc}
+\usepackage{pgfplots}
+\usepackage{xcolor}
+%\usepackage{minted}
+\usepackage{tikz}
+\usepackage{tkz-euclide}
+\usepackage{longtable}
+
+
+
+\begin{document}
+\begin{center}
+    \begin{longtable}{|c|c|p{6cm}|c|}
+\caption{负债类会计科目表}\\
+\hline
+\textbf{序号} & \textbf{编号} & \multicolumn{1}{c|}{\textbf{会计科目名称}} & \textbf{会计科目使用范围} \\
+\hline \hline
+\endfirsthead
+% \caption{\textit{(Continued)} Caption for the multi-page table}\\
+\caption{(续表) 资产类会计科目表}\\
+\hline
+\textbf{序号} & \textbf{编号} & \multicolumn{1}{c|}{\textbf{会计科目名称}} & \textbf{会计科目使用范围} \\
+\hline \hline
+\endhead
+\hline
+\multicolumn{4}{|r|}{\textit{Continued on next page}} \\\hline
+\endfoot
+\hline
+\endlastfoot
+1 & 2001 & 短期借款 & \\\hline
+2 & 2002 & 存入保证金 & 金融共用 \\\hline
+3 & 2003 & 拆入资金 & 金融专用 \\\hline
+4 & 2004 & 向中央银行借款 & 银行专用 \\\hline
+5 & 2011 & 吸收存款 & 银行专用 \\\hline
+6 & 2012 & 同业存放 & 银行专用 \\\hline
+7 & 2021 & 贴现负债 & 银行专用 \\\hline
+8 & 2101 & 交易性金融负债 &  \\\hline
+9 & 2111 & 卖出回购金融资产款 & 金融共用 \\\hline
+10 & 2201 & 应付票据 & \\\hline
+11 & 2202 & 应付账款 & \\\hline
+12 & 2203 & 预收账款 & \\\hline
+13 & 2211 & 应付职工薪酬 & \\\hline
+14 & 2221 & 应交税费 & \\\hline
+15 & 2231 & 应付利息 & \\\hline
+16 & 2232 & 应付股利 & \\\hline
+17 & 2241 & 其他应付款 & \\\hline
+18 & 2251 & 应付保单红利 & 保险专用 \\\hline
+19 & 2261 & 应付分保账款 & 保险专用 \\\hline
+20 & 2311 & 代理买卖证券款 & 证券专用 \\\hline
+21 & 2312 & 代理承销证券款 & 证券和银行共用 \\\hline
+22 & 2313 & 代理兑付证券款 & 证券和银行共用 \\\hline
+23 & 2314 & 代理业务负债 & 证券和银行共用 \\\hline
+24 & 2401 & 递延收益 & \\\hline
+25 & 2501 & 长期借款 & \\\hline
+26 & 2502 & 应付债券 & \\\hline
+27 & 2504 & 继续涉入负债 & \\\hline
+28 & 2601 & 未到期责任准备金 & 保险专用 \\\hline
+29 & 2602 & 保险责任准备金 &  保险专用 \\\hline
+30 & 2611 & 保户储金 & 保险专用 \\\hline
+31 & 2621 & 独立账户负债 & 保险专用 \\\hline
+32 & 2701 & 长期应付款 & \\\hline
+33 & 2702 & 未确认融资费用 & \\\hline
+34 & 2711 & 专项应付款 & \\\hline
+35 & 2801 & 预计负债 & \\\hline
+36 & 2901 & 递延所得税负债 & \\\hline
+37 & 2245 & 持有待售负债 & \\\hline
+\end{longtable}
+\end{center}
+
+
+\end{document}
