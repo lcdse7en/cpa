@@ -1,0 +1,85 @@
+
+
+\documentclass[a4paper]{ctexart}    %ctexart, article
+\usepackage[margin=1cm]{geometry}
+\usepackage{amsmath, mathrsfs, amsfonts}
+\usepackage{amssymb}
+\usepackage[
+      colorlinks=true,
+            linkcolor=Navy,
+            urlcolor=Navy,
+            citecolor=Navy,
+            anchorcolor=Navy
+]{hyperref}
+\usepackage[utf8]{inputenc}
+\usepackage{pgfplots}
+\usepackage{xcolor}
+%\usepackage{minted}
+\usepackage{tikz}
+\usepackage{tkz-euclide}
+\usepackage{longtable}
+
+
+
+\begin{document}
+\begin{center}
+    \begin{longtable}{|c|c|p{6cm}|c|}
+\caption{损益类会计科目表}\\
+\hline
+\textbf{序号} & \textbf{编号} & \multicolumn{1}{c|}{\textbf{会计科目名称}} & \textbf{会计科目使用范围} \\
+\hline \hline
+\endfirsthead
+% \caption{\textit{(Continued)} Caption for the multi-page table}\\
+\caption{(续表) 资产类会计科目表}\\
+\hline
+\textbf{序号} & \textbf{编号} & \multicolumn{1}{c|}{\textbf{会计科目名称}} & \textbf{会计科目使用范围} \\
+\hline \hline
+\endhead
+\hline
+\multicolumn{4}{|r|}{\textit{Continued on next page}} \\\hline
+\endfoot
+\hline
+\endlastfoot
+1 & 6001 & 主营业务收入 & \\\hline
+2 & 6011 & 利息收入 & 金融共用 \\\hline
+3 & 6021 & 手续费收入 & 金融共用 \\\hline
+4 & 6031 & 保费收入 & 保险专用 \\\hline
+5 & 6041 & 租赁收入 & 租赁专用 \\\hline
+6 & 6051 & 其他业务收入 & \\\hline
+7 & 6061 & 汇兑损益 & 金融专用 \\\hline
+8 & 6101 & 公允价值变动损益 &  \\\hline
+9 & 6111 & 投资收益 & \\\hline
+10 & 6115 & 资产处置损益 & \\\hline
+11 & 6117 & 其他收益 & \\\hline
+12 & 6201 & 摊回保险责任准备金 & 保险专用 \\\hline
+13 & 6202 & 摊回赔付支出 & 保险专用 \\\hline
+14 & 6203 & 摊回分保费用 & 保险专用 \\\hline
+15 & 6301 & 营业外收入 & \\\hline
+16 & 6401 & 主营业务成本 & \\\hline
+17 & 6402 & 其他业务成本 & \\\hline
+18 & 6403 & 税金及附加 & \\\hline
+19 & 6411 & 利息支出 & 金融共用 \\\hline
+20 & 6421 & 手续费支出 & 金融共用 \\\hline
+21 & 6501 & 提取未到期责任准备金 & 保险专用 \\\hline
+22 & 6502 & 提取保险责任准备金 & 保险专用 \\\hline
+23 & 6511 & 赔付支出 & 保险专用 \\\hline
+24 & 6521 & 保单红利支出 & 保险专用 \\\hline
+25 & 6531 & 退保金 & 保险专用 \\\hline
+26 & 6541 & 分出保费 & 保险专用 \\\hline
+27 & 6542 & 分保费用 & 保险专用 \\\hline
+28 & 6601 & 销售费用 & \\\hline
+29 & 6602 & 管理费用 & \\\hline
+30 & 6603 & 财务费用 & \\\hline
+31 & 6604 & 勘探费用 & 石油天然气开采专用 \\\hline
+32 & 6701 & 资产减值损失 & \\\hline
+33 & 6702 & 信用减值损失 & \\\hline
+34 & 6711 & 营业外支出 & \\\hline
+35 & 6801 & 所得税费用 & \\\hline
+36 & 6901 & 以前年度损益调整 & \\\hline
+37 & 企业自行设置 & 套期损益 & \\\hline
+38 & 企业自行设置 & 净敞口套期损益 & \\\hline
+\end{longtable}
+\end{center}
+
+
+\end{document}

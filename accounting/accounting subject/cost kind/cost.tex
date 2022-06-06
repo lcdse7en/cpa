@@ -1,0 +1,51 @@
+
+
+\documentclass[a4paper]{ctexart}    %ctexart, article
+\usepackage[margin=1cm]{geometry}
+\usepackage{amsmath, mathrsfs, amsfonts}
+\usepackage{amssymb}
+\usepackage[
+      colorlinks=true,
+            linkcolor=Navy,
+            urlcolor=Navy,
+            citecolor=Navy,
+            anchorcolor=Navy
+]{hyperref}
+\usepackage[utf8]{inputenc}
+\usepackage{pgfplots}
+\usepackage{xcolor}
+%\usepackage{minted}
+\usepackage{tikz}
+\usepackage{tkz-euclide}
+\usepackage{longtable}
+
+
+
+\begin{document}
+\begin{center}
+    \begin{longtable}{|c|c|p{6cm}|c|}
+\caption{成本类会计科目表}\\
+\hline
+\textbf{序号} & \textbf{编号} & \multicolumn{1}{c|}{\textbf{会计科目名称}} & \textbf{会计科目使用范围} \\
+\hline \hline
+\endfirsthead
+% \caption{\textit{(Continued)} Caption for the multi-page table}\\
+\caption{(续表) 资产类会计科目表}\\
+\hline
+\textbf{序号} & \textbf{编号} & \multicolumn{1}{c|}{\textbf{会计科目名称}} & \textbf{会计科目使用范围} \\
+\hline \hline
+\endhead
+\hline
+\multicolumn{4}{|r|}{\textit{Continued on next page}} \\\hline
+\endfoot
+\hline
+\endlastfoot
+1 & 5001 & 生产成本 & \\\hline
+2 & 5101 & 制造费用 & \\\hline
+3 & 5201 & 劳务成本 & \\\hline
+4 & 5301 & 研发支出 & \\\hline
+\end{longtable}
+\end{center}
+
+
+\end{document}

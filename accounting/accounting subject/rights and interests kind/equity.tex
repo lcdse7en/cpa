@@ -1,0 +1,60 @@
+
+
+\documentclass[a4paper]{ctexart}    %ctexart, article
+\usepackage[margin=1cm]{geometry}
+\usepackage{amsmath, mathrsfs, amsfonts}
+\usepackage{amssymb}
+\usepackage[
+      colorlinks=true,
+            linkcolor=Navy,
+            urlcolor=Navy,
+            citecolor=Navy,
+            anchorcolor=Navy
+]{hyperref}
+\usepackage[utf8]{inputenc}
+\usepackage{pgfplots}
+\usepackage{xcolor}
+%\usepackage{minted}
+\usepackage{tikz}
+\usepackage{tkz-euclide}
+\usepackage{longtable}
+
+
+
+\begin{document}
+\begin{center}
+    \begin{longtable}{|c|c|p{6cm}|c|}
+\caption{所有者权益类会计科目表}\\
+\hline
+\textbf{序号} & \textbf{编号} & \multicolumn{1}{c|}{\textbf{会计科目名称}} & \textbf{会计科目使用范围} \\
+\hline \hline
+\endfirsthead
+% \caption{\textit{(Continued)} Caption for the multi-page table}\\
+\caption{(续表) 资产类会计科目表}\\
+\hline
+\textbf{序号} & \textbf{编号} & \multicolumn{1}{c|}{\textbf{会计科目名称}} & \textbf{会计科目使用范围} \\
+\hline \hline
+\endhead
+\hline
+\multicolumn{4}{|r|}{\textit{Continued on next page}} \\\hline
+\endfoot
+\hline
+\endlastfoot
+1 & 4001 & 实收资本 & \\\hline
+2 & 4002 & 资本公积 & \\\hline
+3 & 4101 & 盈余公积 & \\\hline
+4 & 4102 & 一般风险准备 & 金融共用 \\\hline
+5 & 4103 & 本年利润 & \\\hline
+6 & 4104 & 利润分配 & \\\hline
+7 & 4201 & 库存股 & \\\hline
+8 & 4301 & 其他综合收益 &  \\\hline
+9 & 企业自主设置 & 其他综合收益-信用减值准备 & \\\hline
+10 & 企业自主设置 & 其他综合收益-套期储备 & \\\hline
+11 & 企业自主设置 & 其他综合收益-套期损益 & \\\hline
+12 & 企业自主设置 & 其他综合收益-套期成本 & \\\hline
+13 & 4401 & 其他权益工具 & \\\hline
+\end{longtable}
+\end{center}
+
+
+\end{document}
