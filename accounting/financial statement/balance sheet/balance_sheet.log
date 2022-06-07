@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2021.4.10)  7 JUN 2022 11:44
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2021.4.10)  7 JUN 2022 12:00
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1357,15 +1357,15 @@ LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
-* h-part:(L,W,R)=(11.38092pt, 574.74603pt, 11.38092pt)
-* v-part:(T,H,B)=(11.38092pt, 822.285pt, 11.38092pt)
+* h-part:(L,W,R)=(19.91684pt, 557.6742pt, 19.91684pt)
+* v-part:(T,H,B)=(19.91684pt, 805.21317pt, 19.91684pt)
 * \paperwidth=597.50787pt
 * \paperheight=845.04684pt
-* \textwidth=574.74603pt
-* \textheight=822.285pt
-* \oddsidemargin=-60.88907pt
-* \evensidemargin=-60.88907pt
-* \topmargin=-97.88907pt
+* \textwidth=557.6742pt
+* \textheight=805.21317pt
+* \oddsidemargin=-52.35315pt
+* \evensidemargin=-52.35315pt
+* \topmargin=-89.35315pt
 * \headheight=12.0pt
 * \headsep=25.0pt
 * \topskip=10.0pt
@@ -1434,7 +1434,7 @@ Package rerunfilecheck Info: File `balance_sheet.out' has not changed.
 Here is how much of TeX's memory you used:
  40625 strings out of 476919
  1004398 string characters out of 5821840
- 1466848 words of memory out of 5000000
+ 1466852 words of memory out of 5000000
  59802 multiletter control sequences out of 15000+600000
  406088 words of font info for 52 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
