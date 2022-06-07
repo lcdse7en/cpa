@@ -1,0 +1,72 @@
+\documentclass[a4paper,10pt]{ctexart}    %ctexart, article
+\usepackage[margin=0.4cm]{geometry}
+\usepackage{amsmath, mathrsfs, amsfonts}
+\usepackage{amssymb}
+\usepackage[colorlinks=true,allcolors=blue]{hyperref}
+\usepackage[utf8]{inputenc}
+\usepackage{pgfplots}
+\usepackage{xcolor}
+%\usepackage{minted}
+\usepackage{tikz}
+\usepackage{tkz-euclide}
+\usepackage{longtable}
+\usepackage{setspace}
+\usepackage{booktabs} % 调整表格线与上下内容的间隔
+\usepackage{multirow}
+
+
+\renewcommand\arraystretch{1.4}
+
+\begin{document}
+% \linespread{1.4}
+\begin{table}
+
+    \begin{tabular}[htbp]{p{4.2cm}|r|r|p{4.7cm}|r|r}
+    \multicolumn{6}{c}{\textbf{资产负债表}} \\
+    \specialrule{0em}{10pt}{10pt}
+    \multicolumn{2}{l}{编制单位：} & \multicolumn{2}{c}{年\qquad 月\qquad 日} & \multicolumn{2}{r}{单位：元} \\\hline\specialrule{0.1em}{0pt}{0pt}
+    \multicolumn{1}{c|}{\textbf{资产}} & \multicolumn{1}{c|}{\textbf{期末余额}} & \multicolumn{1}{c|}{\textbf{上年年末余额}} & \multicolumn{1}{c|}{\textbf{负债和所有者权益（或股东权益）}} & \multicolumn{1}{c|}{\textbf{期末余额}} & \multicolumn{1}{c}{\textbf{上年年末余额}} \\\hline\specialrule{0.1em}{0pt}{0pt}
+    流动资产: & & & 流动负债: & & \\\hline
+    货币资金 & & & 短期借款 & & \\\hline
+    交易性金融资产 & & & 交易性金融负债 & & \\\hline
+    衍生金融资产 & & & 衍生金融负债 & & \\\hline
+    应收票据 & & & 应付票据 & & \\\hline
+    应收账款 & & & 应付账款 & & \\\hline
+    应收款项融资 & & & 预收款项 & & \\\hline
+    预付款项 & & & 合同负债 & & \\\hline
+    其他应收款 & & & 应付职工薪酬 & & \\\hline
+    存货 & & & 应交税费 & & \\\hline
+    合同资产 & & & 其他应付款 & & \\\hline
+    持有待售资产 & & & 持有待售负债 & & \\\hline
+    一年内到期的非流动资产 & & & 一年内到期的非流动负债 & & \\\hline
+    其他流动资产 & & & 其他流动负债 & & \\\hline
+    流动资产合计 & & & 流动负债合计 & & \\\hline
+    非流动资产: & & & 非流动负债: & & \\\hline
+    债权投资 & & & 长期借款 & & \\\hline
+    其他债权投资 & & & 应付债券 & & \\\hline
+    长期应收款 & & & 其中：优先股 & & \\\hline
+    长期股权投资 & & &\quad \qquad 永续债 & & \\\hline
+    其他权益工具投资 & & & 租赁负债 & & \\\hline
+    其他非流动金融资产 & & & 长期应付款 & & \\\hline
+    投资性房地产 & & & 预计负债 & & \\\hline
+    固定资产 & & & 递延收益 & & \\\hline
+    在建工程 & & & 递延所得税负债 & & \\\hline
+    生产性生物资产 & & & 其他非流动负债 & & \\\hline
+    油气资产 & & & 非流动负债合计 & & \\\hline
+    使用权资产 & & & 负债合计 & & \\\hline
+    无形资产 & & & 所有者权益（或股东权益）& & \\\hline
+    开发支出 & & & 实收资本（或股本）& & \\\hline
+    商誉 & & & 其他权益工具 & & \\\hline
+    长期待摊费用 & & & 其中：优先股 & & \\\hline
+    递延所得税资产 & & & \quad \qquad 永续债 & & \\\hline
+    其他非流动资产 & & & 资本公积 & & \\\hline
+    非流动资产合计 & & & 减:库存股 & & \\\hline
+     & & & 其他综合收益 & & \\\hline
+     & & & 专项储备 & & \\\hline
+     & & & 盈余公积 & & \\\hline
+     & & & 未分配利润 & & \\\hline
+     & & & 所有者权益（或股东权益）合计 & & \\\hline
+    \multicolumn{1}{c|}{资产总计} & & & \multicolumn{1}{c|}{负债和所有者权益（或股东权益）总计}& & \\\hline \specialrule{0.1em}{0pt}{0pt}
+    \end{tabular}
+\end{table}
+\end{document}
